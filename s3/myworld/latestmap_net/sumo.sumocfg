@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 07/04/22 14:04:45 by Eclipse SUMO GUI Version 1.8.0
+-->
+
+<configuration>
+
+    <input>
+        <net-file value="D:\Desktop\myworld\latestmap_net\sumo.net.xml"/>
+        <route-files value="D:\Desktop\myworld\latestmap_net\sumo.rou.xml"/>
+    </input>
+    
+    <time>
+        <step-length value="0.05" />
+    </time>
+
+</configuration>

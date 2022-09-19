@@ -80,6 +80,8 @@ def socket_test():
 
 
 class Car(object):
+    ''' This object collects GPS information from AliCloud to simulate movement of vehicle, then send calculated data
+        via socket.'''
     _car_sock = None
 
     def __init__(self, car_id, car_type, init_sensor=None):
@@ -167,7 +169,7 @@ class Car(object):
             time.sleep(0.05)
 
     def dual_way_connect(self):
-
+        '''Connects AliCloud and socket client'''
         def on_message(client, userdata, msg):
             # steps: 1.save data to object 2.check time 3.socket send
             data = str(msg.payload)
@@ -311,6 +313,7 @@ class Car(object):
 
 @dataclass
 class SensorInfo:
+    '''Object to store GPS data'''
     lat: float
     lat_semi: str
     lon: float

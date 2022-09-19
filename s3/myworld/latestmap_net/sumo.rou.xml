@@ -1,0 +1,123 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+  <route id="0" edges="802444124_2 802444124_4 802444124_3 1036594355 1036594354_1 797777130_2 797777130_3"/>
+  <route id="1" edges="1036712900_2 1036594352 1036594353 797777131_1"/>
+  <route id="2" edges="521567035_1 1036712901_3 1036712901_4"/>
+  <route id="3" edges="505059836 794235947_1 794235947_2 798001346"/>
+  <route id="4" edges="802444124_2 802444124_4 802444124_3 1036594355 1036594354_1 gneE27 798001346"/>
+  <route id="5" edges="1036712900_2 gneE30 797777130_2"/>
+  <route id="6" edges="521567035_1 gneE29 1036594352 1036594353 797777131_1"/>
+  <route id="7" edges="794235947_1 794235947_2 gneE28 1036712901_3  1036712901_4"/>
+  <route id="9" edges="1036712900_2 gneE30 gneE27  798001346"/>
+  <route id="10" edges="521567035_1 gneE29 gneE30  797777130_2"/>
+  <route id="11" edges="794235947_2 gneE28 gneE29  1036594352 1036594353 797777131_1"/>
+  <vType id="car" minGap="5"/>
+  <vType id="bus" accel="0.8" decel="4.5" sigma="0.8" length="10" minGap="8" maxSpeed="20" guiShape="bus" vClass="bus"/>
+  <vType id="motorcycle" accel="1.2" decel="4.5" sigma="0.5" length="3" minGap="1.5" maxSpeed="25" guiShape="motorcycle" vClass="motorcycle"/>
+  <vType id="trailer" accel="0.8" decel="4.5" sigma="0.8" length="14" minGap="8" maxSpeed="20" guiShape="truck" vClass="trailer"/>
+  <vType id="truck" accel="0.8" decel="4.5" sigma="0.5" length="8" minGap="8" maxSpeed="25" guiShape="truck" vClass="truck"/>
+  <vehicle id="0" type="truck" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="1" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="2" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="3" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="4" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="5" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="6" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="7" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="8" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="9" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="10" type="motorcycle" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="11" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="12" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="13" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="14" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="15" type="trailer" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="16" type="bus" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="17" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="18" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="19" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="20" type="motorcycle" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="21" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="22" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="23" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="24" type="car" route="3" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="25" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="26" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="27" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="28" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="29" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="30" type="trailer" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="31" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="32" type="bus" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="33" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="34" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="35" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="36" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="37" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="38" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="39" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="40" type="truck" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="41" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="42" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="43" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="44" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="45" type="trailer" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="46" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="47" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="48" type="bus" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="49" type="car" route="1" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="50" type="motorcycle" route="4" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="51" type="car" route="4" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="52" type="car" route="4" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="53" type="car" route="4" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="54" type="car" route="4" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="55" type="car" route="0" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="56" type="car" route="0" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="57" type="car" route="0" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="58" type="car" route="0" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="59" type="car" route="0" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="60" type="trailer" route="0" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="61" type="car" route="0" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="62" type="car" route="0" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="63" type="car" route="0" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="64" type="bus" route="0" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="65" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="66" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="67" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="68" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="69" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="70" type="motorcycle" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="71" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="72" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="73" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="74" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="75" type="trailer" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="76" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="77" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="78" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="79" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="80" type="truck" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="81" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="82" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="83" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="84" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="85" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="86" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="87" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="88" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="89" type="car" route="6" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="90" type="trailer" route="2" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="91" type="car" route="2" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="92" type="car" route="2" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="93" type="car" route="2" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="94" type="car" route="2" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="95" type="car" route="2" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="96" type="bus" route="2" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="97" type="car" route="2" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="98" type="car" route="2" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="99" type="car" route="2" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="100" type="motorcycle" route="10" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="101" type="car" route="10" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="102" type="car" route="10" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="103" type="car" route="10" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+  <vehicle id="104" type="car" route="10" depart="0" departLane="free" departPos="free" departSpeed="max"/>
+</routes>
